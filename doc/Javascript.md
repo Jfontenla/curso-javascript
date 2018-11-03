@@ -42,11 +42,13 @@ Dentro de este archivo se definen y maneja características como:
 * Autores
 * Licencia
 * Y mas…
+
 _(**yarn ->** administracion de paquetes para Node creado por FACEBOOK)_
 
 Con el Package.json podemos asegurar que quienes tengan una copia del mismo, podrán acceder a las mísmas propiedades y sincronizar entre múltiples partes de cada vez que decidan hacer un cambio. _Por esto podemos considerarel manifiesto de nuestro proyecto_
 
 **npm init : Para crear un package.json automáticamente.**
+
 _(yarn init : administración de paquetes Node FACEBOOK)_
 /*Se crea con npm init -y nos crea el package.json/*
 /*El archivo package-lock.json se borra/*
@@ -56,6 +58,7 @@ _(yarn init : administración de paquetes Node FACEBOOK)_
 Poner el comando "Npm install" continuado de estas dos librerias js
 * Mocha.js
 * Expect.js
+
 **Npm install [librerias_js] -save o npm install [librerias] -save-dev** te guardan las dependencias en el package.json
 
 Node_modules estarán todas las librerías de las depndencias,/* esta carpeta es bueno /* ignorarla [GIT IGNORE EN LA CARPETA DEL PROYECTO PARA INDICARSELO A GIT]
