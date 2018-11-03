@@ -15,6 +15,16 @@
 *	 **Chat**:  https://cursojavascriptsede.slack.com
 *	**Drive** : https://drive.google.com/drive/folders/1T3kmj2KNmG0FHyDhbSieRyT7zWF8uBzb?usp=sharing_eip&ts=5bb7910c
 
+* **Quitar los proxis en la carpeta de usuario :**
+> npm config set proxy  http://10.110.8.42:8080
+>npm config set https-proxy  >http://10.110.8.42:8080
+>npm config rm proxy
+>npm config rm https-proxy
+>npm config edit
+>git config --global http.proxy >http://10.110.8.42:8080
+>git config --global --unset http.proxy
+
+
 # EXPLICACIONES FUTURAS
 
 *	TDD(TEST-DRIVER-DEVELOPER)
@@ -62,3 +72,13 @@ Poner el comando "Npm install" continuado de estas dos librerias js
 **Npm install [librerias_js] -save o npm install [librerias] -save-dev** te guardan las dependencias en el package.json
 
 Node_modules estarán todas las librerías de las depndencias,/* esta carpeta es bueno /* ignorarla [GIT IGNORE EN LA CARPETA DEL PROYECTO PARA INDICARSELO A GIT]
+
+### COMANDOS DE GIT
+* **Git add –all :**
+* **Git remove HEAD :**
+* **Git commit –m “/*cometarios del commit/* ” :**
+* **Git log :**
+* **Git status :**
+* **Git push :**
+* **Git pull :**
+
