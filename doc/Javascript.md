@@ -98,9 +98,9 @@ Otra forma de clasificar un lenguaje de programación es según su filosofía de
 
 ### **SEGÚN EL PROPÓSITO**
 Segun el proposito del lenguaje,es decir, el tipo de problemasa tratar con ellos. 
-1. **Lenguajes de propósito general :**Aptos para todo tipo de tareas. Ejemplo: C.
-2. **Lenguajes de propósito específico :**Hechos para un objetivo muy concreto. Ejemplo: Csound (para crear ficheros de audio)
-3. **Lenguajes de programación de sistemas :**Diseñados para realizar sistemas operativos o drivers. Ejemplo: C.
+1. **Lenguajes de propósito general :** Aptos para todo tipo de tareas. Ejemplo: C.
+2. **Lenguajes de propósito específico :** Hechos para un objetivo muy concreto. Ejemplo: Csound (para crear ficheros de audio)
+3. **Lenguajes de programación de sistemas :** Diseñados para realizar sistemas operativos o drivers. Ejemplo: C.
 4. **Lenguajes de script :**Para realizar tareas de control y auxiliares. Antiguamente eran los llamados lenguajes de procesamiento por lotes(batch) o JCL(_"Job Control Lenguajes"_).
 
 ### **Evolución histórica**
@@ -118,6 +118,14 @@ Los lenguajes de programacion también se pueden clasificar según su evolución
 
 También los hay mixtos, como Java, que primero pasan por una fase de compilación en la que el código fuente se transforma en “bytecode”, y este “bytecode” puede ser ejecutado luego (interpretado) en ordenadores con distintas arquitecturas (procesadores) que tengan todos instalados la misma “máquina virtual” Java.
 
-Los lenguajes pueden ser:
-* Tipado
-* No tipado
+### **Paradigma de programación**
+1. **Programación procedural :** Divide el problema en partes más pequeñas, que serán realizadas por subprogramas (subrutinas, funciones, procedimientos), que se llaman unas a otras para ser ejecutadas. Ejemplos: C, Pascal.
+2. **Programación orientada a objetos :** Crean un sistema de clases y objetos siguiendo el ejemplo del mundo real, en el que unos objetos realizan acciones y se comunican con otros objetos. Ejemplos: C++, Java.
+3. **Programación funcioanl :**  La tarea se realiza evaluando funciones, (como en Matemáticas), de manera recursiva. Ejemplo: Lisp.
+4. **Programación lógica :**  La tarea a realizar se expresa empleando lógica formal matemática. Expresa qué computar. Ejemplo: Prolog.
+
+[Más formas de clasificar los lenguajes de programación](https://qbitacora.wordpress.com/2007/09/21/clasificacion-de-lenguajes-de-programacion/)
+
+Los lenguajes también se pueden clasificar en:
+1. **Tipado :**
+2. **No tipado :**
