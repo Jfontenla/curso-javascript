@@ -82,3 +82,20 @@ Node_modules estarán todas las librerías de las depndencias,/* esta carpeta es
 * **Git push :**
 * **Git pull :**
 
+# JAVASCRIPT LENGUAJE NO TIPADO
+Los lenguajes de programacion se **pueden diferenciar** de diferentes formas.
+
+Una forma de clasificar un lenguaje podría decirse que es la facilidad de comprensión del lenguaje por parte del ser humano o la facilidad de comprensión por parte de la máquina (computadora).
+1. **Lenguaje Máquina :**  Lenguaje que entiende directamente la máquina.
+2. **Lenguaje de programación de bajo nivel :** Son mas fáciles de utilizar que el lenguaje de la máquina o computadora como sucedía con el lenguaje máquina.
+3. **Lenguajes de programación de alto nivel :** Son más fáciles de aprender porque se usan palabras o comandos del lenguaje natural, generalmente del ingés. Este es el caso del BASIC, el lenguaje de programación más conocido.
+
+Otra forma de clasificar un lenguaje de programación es según su filosofía de su creacion o el punto de vista de trabajar con los progrmas
+1. **Lenguaje imperativo :** consisten de plantear una solución como una serie de pasos dispuestos uno después de otro, es como seguir un instructivo paso a paso. Entre ellos tenemos Cobol, Pascal, C y Ada.
+2. **Lenguaje declarativo :** son vistos como una serie de definiciones al puro estilo matemático y la solución del problema consiste en usar todas estas definiciones en conjunto para obtener un resultado. Lisp, Prolog,Racket, OCaml. *Segun el blog que consulte, dice que JavaScript,Python, Ruby son lenguajes híbridos* [Programación declarativa](https://medium.com/@manu_msr/el-paradigma-de-programaci%C3%B3n-declarativa-6dcbeccbd173)
+3. **Lenguaje orientado al problema :**
+4. **Lenguaje de programación natural :**
+
+Los lenguajes pueden ser:
+* Tipado
+* No tipado
