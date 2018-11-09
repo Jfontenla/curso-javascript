@@ -1,5 +1,5 @@
 var sum = require('../src/sum.js');
-var expect = require('expect.js') /*exportamos el expect, que es una libreria de 3º*/
+var expect = require('expect.js'); /*exportamos el expect, que es una libreria de 3º*/
 describe ('sum', function()
 {
    
