@@ -65,12 +65,27 @@ describe('number-to-string.js',function(){
             expect(numberToString.numberToStringSwitchCase).withArgs('a').to.throwException();
         });
     });
-    discribe('numberToStringIfReturn',function(){
+    describe('numberToStringIfReturn',function(){
         it('should be a function', function(){
             expect(typeof numberToString.numberToStringIfReturn ).to.be('function');
         });
-        it('should be a string with name of number',function(){
+        it('should be a string with name of number(range 0 to 10)',function(){
             expect(numberToString.numberToStringIfReturn(5)).to.be('Five');
+            expect(numberToString.numberToStringIfReturn(10)).to.be('Ten');
+            expect(numberToString.numberToStringIfReturn(0)).to.be('Zero');
+        });
+        it('should be to throw error because the number is smaller than 0',function(){
+            expect(numberToString.numberToStringIfReturn).withArgs(-1).throwException();
+            expect(numberToString.numberToStringIfReturn).withArgs(-30).throwException();
+            expect(numberToString.numberToStringIfReturn).withArgs(-2).throwException();
+        });
+        it('should be to throw error because the number is greater than 10',function(){
+            expect(numberToString.numberToStringIfReturn).withArgs(11).throwException();
+            expect(numberToString.numberToStringIfReturn).withArgs(30).throwException();
+            expect(numberToString.numberToStringIfReturn).withArgs(21).throwException();
+        });
+        it('should be to throw error because the arg is not a number', function(){
+            expect(numberToString.numberToStringIfReturn).withArgs('a').to.throwException();
         });
     });
 });

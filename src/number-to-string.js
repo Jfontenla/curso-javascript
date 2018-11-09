@@ -168,18 +168,16 @@ function numberToStringIfReturn(num)
     if (typeof num !=='number')
     {
         throw new Error('Not a number');
+    }else if(num<min)
+    {
+        throw new Error('must be greatest than ' + retrunValueStringIfRetrun(min));
+    }else if(num>max){
+        throw new Error('must be equal o lessor than Ten ' + retrunValueStringIfRetrun(max));
     }else{
-        switch(num){
-            case num<min :
-                throw new Error('must be greatest than ' + retrunValueStringIfRetrun(min));
-            case num>max:
-                throw new Error('must be equal o lessor than Ten ' + retrunValueStringIfRetrun(max));
-            default:
-            result = retrunValueStringIfRetrun(num);
-            break;
-        }
+        result = retrunValueStringIfRetrun(num);
         return result;
     }
+ 
 }
 console.log(numberToStringIfReturn(3));
 
