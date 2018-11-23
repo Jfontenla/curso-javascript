@@ -9,6 +9,7 @@
 **switch en cascada en los unit test**
 **type casting**
     poder convertir de un tipo a otro
+**a+a+a ='abc'** pista :CLOSURE
 *commonjs* **mirarlo JFG**
 ##REGEX EXPRESIONES REGULARES
 /regex/ -> entre los // va la regex
