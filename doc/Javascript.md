@@ -36,6 +36,10 @@
 *	Package-lock.json
 *	Git
 *	BDD
+*   REPL *interprete de node*
+*   Codigos de powershell
+*   Mocha
+*   Expect.js
 
 ## Package.json 
 *te dice las dependencias del proyecto.*
@@ -129,3 +133,59 @@ También los hay mixtos, como Java, que primero pasan por una fase de compilaci�
 Los lenguajes también se pueden clasificar en:
 1. **Tipado :**
 2. **No tipado :**
+**(JavaScript es un lenguaje no tipado dinámico)**
+##Tipos de datos (Values, Types, and Operators) 
+###Tipos simples
+* Numeros
+* Strings
+* Boolean
+* Null
+* Undefined
+**Nota: node(escribirlo en la consola) en cualquier símbolo del sistema te abre un interprete de node**
+
+*"Var :"* se usa para declarar una variable. Sino se define la variable, JavaScript por defecto te lo inicializa a undefined.
+
+Definimos una variable 
+var x = 3 
+Aquí tendremos que el tipo de la variable x es number.
+
+Los operadores lógicos son EXPRESIONES (por que devuelven un resultado). Todos los valores de tipos son expresiones por que tienen valor.*EXPRESIONES SON CIUDADANOS DE 1º ORDEN*
+La SENTENCIA no devuelve valor.
+**EJEMPLO:**
+**EXPRESION** X=2;
+**SENTENCIA** Var x;
+**SENTENCIA Y EXPRESION** Var x=2;
+
+**Condicional**
+*if(EXPRESION BOOLEANA)*
+*{*
+    *Statments*
+*}*
+*Else*
+*{*
+    *Statments*
+*}*
+
+**Operadores**
+* Unarios
+* Binarios
+* Ternarios
+## UNIT TEST
+Para poder crear unit tests necesitamos dos librerias Mocha y Expect.
+describe es con Mocha.
+expect lo que voy a testear, el resultado que tienes que hacer.
+Los ficheros tiene que tener al final del nombre **.spec.js** el **spec es de specification**
+
+Hay que indicar al proyecto donde tiene los test a ejecutarse. Vamos al package.json y en scripts, tendremos que poner :
+test : "mocha ruta_de_los_test/** /*.spect.js".
+
+hay que escribir el module.exports para saber que quieres exportar y poder usarlo en los ficheros donde se haran los unit test.
+
+Dos carpetas al mismo nivel, SRC y TEST -> misma estructura de carpetas y ficheros.
+
+Indicamos que tenemos test para ejecutar. Para ejecutarlos se usa el comando npm run <scripts> (se pone entre <> cuando es una variable….realmente iría sin <>)
+
+## Paso por valor y por referencia
+**Paso por valor  por defecto para tipos simples**
+**Paso por refecerncia por defecto para los tipos compuestos**
+*consultar para c#*
