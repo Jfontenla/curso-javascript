@@ -40,6 +40,7 @@
 *   Codigos de powershell
 *   Mocha
 *   Expect.js
+*   CODE SMELL -> ESTUDIAR SUS REFACTORS
 
 ## Package.json 
 *te dice las dependencias del proyecto.*
@@ -189,3 +190,4 @@ Indicamos que tenemos test para ejecutar. Para ejecutarlos se usa el comando npm
 **Paso por valor  por defecto para tipos simples**
 **Paso por refecerncia por defecto para los tipos compuestos**
 *consultar para c#*
+Toda funcion que devuelve un boolean es un predicado. *Los predicados pueden lanzar un throw*
