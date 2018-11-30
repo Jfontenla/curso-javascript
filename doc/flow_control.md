@@ -15,10 +15,10 @@
 /regex/ -> entre los // va la regex
 poner node en la consola pone el compilador/interprete de NODE
 nombre_variable.test('cadena_a_comprobar'); te lanza un test de REGEX
-. -> any character
-^ -> ha de empezar con esto(starts with)
-$ -> ends with 
-las dos ultimas valen
+* . -> any character
+* ^ -> ha de empezar con esto(starts with)
+* $ -> ends with 
+* las dos ultimas valen
 
 * *Data structures abd algorimths = programs* *POO* *two pilar of javascript* *midium*
 
