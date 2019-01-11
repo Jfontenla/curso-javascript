@@ -6,14 +6,15 @@
 *	Salva: puglisisalva@gmail.com
 *	Jose: jfontenla.glez@gmail.com
 # OBSERVERS 
-*	David : loscabezonesdavid@gmail.com
+*  David : loscabezonesdavid@gmail.com
 *  Javi : javidevictoria@gmail.com
 *  Marc: marccm92@gmail.com
+*  JMR : sefal10@gmail.com
 
 # ENLACES DEL CURSO
 *	**Repositorio**: https://github.com/pfraces-wip/curso-javascript
-*	 **Foro**: http://cursojavascript.foroactivo.com/
-*	 **Chat**:  https://cursojavascriptsede.slack.com
+*	**Foro**: http://cursojavascript.foroactivo.com/
+*	**Chat**:  https://cursojavascriptsede.slack.com
 *	**Drive** : https://drive.google.com/drive/folders/1T3kmj2KNmG0FHyDhbSieRyT7zWF8uBzb?usp=sharing_eip&ts=5bb7910c
 
 * **Quitar los proxis en la carpeta de usuario :**
@@ -72,9 +73,9 @@ _(yarn init : administración de paquetes Node FACEBOOK)_
 #### Algunos comandos NPM
 ##### **Instalación de dependencias :**
 Poner el comando "Npm install" continuado de estas dos librerias js
-* Mocha.js
+* Mocha.js 
 * Expect.js
-
+> Explicar que hace cada una de las librerias
 **Npm install [librerias_js] -save o npm install [librerias] -save-dev** te guardan las dependencias en el package.json
 
 Node_modules estarán todas las librerías de las depndencias,/* esta carpeta es bueno /* ignorarla [GIT IGNORE EN LA CARPETA DEL PROYECTO PARA INDICARSELO A GIT]
