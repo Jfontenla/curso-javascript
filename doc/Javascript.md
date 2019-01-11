@@ -7,7 +7,8 @@
 *	Jose: jfontenla.glez@gmail.com
 # OBSERVERS 
 *	David : loscabezonesdavid@gmail.com
-*   Javi : javidevictoria@gmail.com
+*  Javi : javidevictoria@gmail.com
+*  Marc: marccm92@gmail.com
 
 # ENLACES DEL CURSO
 *	**Repositorio**: https://github.com/pfraces-wip/curso-javascript
