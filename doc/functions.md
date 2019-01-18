@@ -11,16 +11,19 @@ if{} for {}
 
 
 ## Functions statment
-una function statment function(){}
-    Ejemplo:
-    function sum (a,b){
-        return a + b;
-    }
+Una function statment function(){}
+
+>   Ejemplo:
+>   function sum (a,b){
+>       return a + b;
+>   }
+
 te obliga a ponerle nombre
 ## Function expression
-function expresion(o funcion anonima)
-toda funcion anónima, es una function expresion.
-    Ejemplo
-    var sum =function(a,b){
-        return a + b;
-    };
+Function expresion(o funcion anonima)
+Toda funcion anónima, es una function expresion.
+
+>   Ejemplo:
+>   var sum =function(a,b){
+>        return a + b;
+>    };
