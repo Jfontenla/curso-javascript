@@ -66,4 +66,18 @@ En JS se pueden crear una función dentro de otra función
 
 Pila de llamadas: existe un limite de llamadas apiladas
 
+Es lo primero que hay que ver, que es lo que te lanza por pantalla por error, desde el punto en el que sale la excepción y las llamadas inversas
+**Ejemplo**
+
+Error: Sad
+    at foo (C:\Users\jfontenl\curso-javascript\src\call-stack.js:3:11)
+    at bar (C:\Users\jfontenl\curso-javascript\src\call-stack.js:9:5)
+    at qux (C:\Users\jfontenl\curso-javascript\src\call-stack.js:16:5)
+    at Object.<anonymous> (C:\Users\jfontenl\curso-javascript\src\call-stack.js:20:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
 ## recursividad
