@@ -1,5 +1,6 @@
 function foo(){
-    console.log('happy');
+    // console.log('happy');
+    throw new Error('Sad');
 }
 
 function bar()
