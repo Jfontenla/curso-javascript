@@ -67,6 +67,7 @@ En JS se pueden crear una función dentro de otra función
 Pila de llamadas: existe un limite de llamadas apiladas
 
 Es lo primero que hay que ver, que es lo que te lanza por pantalla por error, desde el punto en el que sale la excepción y las llamadas inversas
+Usar recursividad para ver como falla y saber que cantidad de llamadas se pueden hacer.
 **Ejemplo**
 
 Error: Sad
@@ -81,3 +82,5 @@ Error: Sad
     at Function.Module._load (module.js:498:3)
     at Function.Module.runMain (module.js:694:10)
 ## recursividad
+
+Ejercicio de factoriales sin usar recursividad
