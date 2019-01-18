@@ -87,6 +87,18 @@ Ejercicio de factoriales sin usar recursividad
 
 ## Arguments
 **Ejercicio :** Hacer una funcion sum, que acepte una cantidad indefinida de numeros y los sume.
+
 si no se define en la funcion no hay limite de parametros de entrada.
-es una palabra reservada: ejempo en arguments.js
+**arguments :**es una palabra reservada: ejempo en arguments.js.
+
 ## Call,Apply 
+Todas las funciones tienen metodos, algunos de esos metodos son el Call y el Apply
+Son dos maneras alternativas para ejecutar las funciones.
+### Call
+numero indererminado de paramentros, el primero empezamos con null, el primer argumento es para cambiar el this(thisArg)
+mientras que solo sepamos usarlo con null es como si llamamos a la funcion por su nombre(), por lo tanto no nos servira de mucho mientras usemos el primer parametro como null.
+### Apply
+solo dos parametros, y con el primero empezaremos con un null, el primer argumento es para cambiar el this(thisArg)
+Aqui no nos pasa como el Call, el primer argumento puede ser null y aun asi nos interesa su funcionamiento.
+con el primer argumento que se le pasa a null, y en la segunda se pone un array, lo que pasara si llamas a 
+nombre_function.apply(null, array_de_argumentos).
