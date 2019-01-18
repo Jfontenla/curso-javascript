@@ -81,6 +81,12 @@ Error: Sad
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
     at Function.Module.runMain (module.js:694:10)
-## recursividad
+## Recursividad
 
 Ejercicio de factoriales sin usar recursividad
+
+## Arguments
+**Ejercicio :** Hacer una funcion sum, que acepte una cantidad indefinida de numeros y los sume.
+si no se define en la funcion no hay limite de parametros de entrada.
+es una palabra reservada: ejempo en arguments.js
+## Call,Apply 
