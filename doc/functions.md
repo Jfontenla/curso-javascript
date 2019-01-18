@@ -8,8 +8,6 @@
 Los statments de bloque no terminan con punto y coma
 if{} for {}
 
-
-
 ## Functions statment
 Una function statment function(){}
 
@@ -28,8 +26,6 @@ Si se le pone nombre es para usarla para recursividad *var sum = function pepe(a
 >   var sum =function(a,b){
 >        return a + b;
 >    };
-
-
 
 ##  Function SCOPE
 > **Nota :** *Buscar los scope de bloque*
@@ -63,7 +59,6 @@ Node al compilar cada archivo te pone dentro de una funcion, el browser no lo ha
 En JS se pueden crear una función dentro de otra función
 
 ## Call Stack
-
 Pila de llamadas: existe un limite de llamadas apiladas
 
 Es lo primero que hay que ver, que es lo que te lanza por pantalla por error, desde el punto en el que sale la excepción y las llamadas inversas
@@ -81,8 +76,9 @@ Error: Sad
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
     at Function.Module.runMain (module.js:694:10)
-## Recursividad
 
+
+## Recursividad
 Ejercicio de factoriales sin usar recursividad
 
 ## Arguments
