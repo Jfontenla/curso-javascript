@@ -34,7 +34,9 @@ Como curiosidad: cuando llamamos a una variable que se declarará mas tarde, est
 
 una function statment si la llamas antes de definirla, la ejecutará entera.
 
-JS NO TIENE SCOPE DE BLOQUE
+**JS NO TIENE SCOPE DE BLOQUE**
+*Let* y *Const* nos dan SCOPE de bloque. No se puede volver a declarar una misma variable.
+
 **HOISTING** LAS DECLARACIONES VAN PRIMERO
 Node al compilar cada archivo te pone dentro de una funcion, el browser no lo hace, te añade el fichero al global scope
 
