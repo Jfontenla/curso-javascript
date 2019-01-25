@@ -7,12 +7,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --colors test/**/*.spec.js"
+    "test": "mocha --colors test/**/*.spec.js",
+    "http-server": "http-server src/globalscope/browser"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
   "devDependencies": {
     "eslint": "^5.8.0",
     "expect.js": "^0.3.1",
