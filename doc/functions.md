@@ -81,6 +81,7 @@ Es lo primero que hay que ver, que es lo que te lanza por pantalla por error, de
 Usar recursividad para ver como falla y saber que cantidad de llamadas se pueden hacer.
 **Ejemplo**
 
+```
 Error: Sad
     at foo (C:\Users\jfontenl\curso-javascript\src\call-stack.js:3:11)
     at bar (C:\Users\jfontenl\curso-javascript\src\call-stack.js:9:5)
@@ -92,6 +93,7 @@ Error: Sad
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
     at Function.Module.runMain (module.js:694:10)
+```
 
 
 ## Recursividad
