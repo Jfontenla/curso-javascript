@@ -2,8 +2,11 @@
 * **Expression** : Devuelve valor
     Literales nombre igual a lo que expresa
 * **Statment** : No devuelve un valor
+Ejemplo de cada una esa en el archivo functions-statmets.js
 
 > **Nota :** *Buscar los tipos de ciudadanos, en especial los de primer orden*
+
+>**CIUDADANO DE PRIMER ORDEN:**
 > se puede asignar a variable
 > pasar como parámetro
 > se puede devolver como valor de retorno
