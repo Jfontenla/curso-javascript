@@ -4,6 +4,9 @@
 * **Statment** : No devuelve un valor
 
 > **Nota :** *Buscar los tipos de ciudadanos, en especial los de primer orden*
+> se puede asignar a variable
+> pasar como parámetro
+> se puede devolver como valor de retorno
 
 Los statments de bloque no terminan con punto y coma
 if{} for {}
@@ -11,21 +14,26 @@ if{} for {}
 ## Functions statment
 Una function statment function(){}
 
->   Ejemplo:
->   function sum (a,b){
->       return a + b;
->   }
+   Ejemplo:
+   ```js
+   function sum (a,b){
+      return a + b;
+   }
+   ```
 
 te obliga a ponerle nombre
 
 ## Function expression
 Function expresion(o funcion anonima)
 Toda funcion anónima, es una function expresion.
-Si se le pone nombre es para usarla para recursividad *var sum = function pepe(a,b)*
->   Ejemplo:
->   var sum =function(a,b){
->        return a + b;
->    };
+   Si se le pone nombre es para usarla para recursividad  ``` var sum = function pepe(a,b) ```
+   Ejemplo:
+   ```js
+   var sum =function(a,b){
+        return a + b;
+    };
+   ```
+**OJO: TODA FUNCION ANÓNIMA ES UNA FUNCTION EXPRESION, PERO TODA FUNCTION EXPRESSION NO TIENE QUE SER UNA FUNCION ANONIMA**
 
 ##  Function SCOPE
 > **Nota :** *Buscar los scope de bloque*
@@ -125,8 +133,10 @@ nombre_function.apply(null, array_de_argumentos).
 a la carpeta le llamaremos globalscopebrowser
 creamos un index.html, e usamos el npm install http-server
 hay que añadirlo a el package.json dentro de scripts
+   ```
     "scripts": {
     "test": "mocha --colors test/**/*.spec.js",
     "http-server": "http-server src/globalscopebrowser"
     }
+    ```
 para levantar el servidor npm run http-server
