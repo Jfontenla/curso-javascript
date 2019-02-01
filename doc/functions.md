@@ -41,21 +41,24 @@ una function statment si la llamas antes de definirla, la ejecutará entera.
 Node al compilar cada archivo te pone dentro de una funcion, el browser no lo hace, te añade el fichero al global scope
 
 **Ejemplazo**
->Var a  = 3;
 
->function foo ()
->{
->    console.log(a);
->    var a = 5;
->}
+```js
+var a  = 3;
+ 
+function foo ()
+{
+    console.log(a);
+    var a = 5;
+}
 
->foo();
+foo();
 
->console.log(a);
+console.log(a);
 
->foo(a);
+foo(a);
+```
 
->*resultado* : undefined, 3, undefined
+> *resultado* : undefined, 3, undefined
 
 ##  Nested Scope
 En JS se pueden crear una función dentro de otra función
@@ -117,8 +120,6 @@ solo dos parametros, y con el primero empezaremos con un null, el primer argumen
 Aqui no nos pasa como el Call, el primer argumento puede ser null y aun asi nos interesa su funcionamiento.
 con el primer argumento que se le pasa a null, y en la segunda se pone un array, lo que pasara si llamas a 
 nombre_function.apply(null, array_de_argumentos).
-
-
 
 ## mundo browser
 a la carpeta le llamaremos globalscopebrowser
