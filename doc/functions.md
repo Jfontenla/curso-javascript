@@ -129,9 +129,9 @@ Aqui no nos pasa como el Call, el primer argumento puede ser null y aun asi nos 
 con el primer argumento que se le pasa a null, y en la segunda se pone un array, lo que pasara si llamas a 
 nombre_function.apply(null, array_de_argumentos).
 
-## mundo browser
-a la carpeta le llamaremos globalscopebrowser
-creamos un index.html, e usamos el npm install http-server
+## Mundo browser
+A la carpeta le llamaremos globalscope
+creamos un index.html, e usamos el ``` npm install http-server ```
 hay que añadirlo a el package.json dentro de scripts
    ```
     "scripts": {
