@@ -133,10 +133,11 @@ nombre_function.apply(null, array_de_argumentos).
 A la carpeta le llamaremos globalscope
 creamos un index.html, e usamos el ``` npm install http-server ```
 hay que añadirlo a el package.json dentro de scripts
-   ```
+
+   ```js
     "scripts": {
     "test": "mocha --colors test/**/*.spec.js",
     "http-server": "http-server src/globalscopebrowser"
-    }
-    ```
-para levantar el servidor npm run http-server
+   }
+   ```
+para levantar el servidor ``` npm run http-server ```
