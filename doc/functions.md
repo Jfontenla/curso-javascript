@@ -95,7 +95,6 @@ Error: Sad
     at Function.Module.runMain (module.js:694:10)
 ```
 
-
 ## Recursividad
 ### Definición
 Es una técnica utilizada en programación que nos permite que un bloque de instrucciones se ejecute un cierto numero de veces(el que nosotros determinemos).
@@ -146,3 +145,12 @@ hay que añadirlo a el package.json dentro de scripts
    }
    ```
 para levantar el servidor ``` npm run http-server ```
+
+
+## Namespaces
+**Comunicación entre ficheros**
+IFEE funcionque se autoinvoca, para limitar el scope, al ser una funcion podemos devolver un resultado
+Esto nos valdra para comunicar dos ficheros, y llevar de uno a otro.
+```
+    window, es donde estará todas las variables globales.(ventana de browser);
+```
