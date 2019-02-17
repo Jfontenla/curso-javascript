@@ -154,3 +154,11 @@ Esto nos valdra para comunicar dos ficheros, y llevar de uno a otro.
 ```
     window, es donde estará todas las variables globales.(ventana de browser);
 ```
+
+### GLOBAL SCOPE ACCESS
+BROWSER: window
+NODE: global
+BOTH: var mgs = 
+            (function(){
+                return this;
+            }());
