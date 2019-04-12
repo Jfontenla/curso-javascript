@@ -5,11 +5,11 @@
 *	Pau ( PROFE) : pfraces@gmail.com
 *	Salva: puglisisalva@gmail.com
 *	Jose: jfontenla.glez@gmail.com
+*   JMR : sefal10@gmail.com
 # OBSERVERS 
 *  David : loscabezonesdavid@gmail.com
 *  Javi : javidevictoria@gmail.com
 *  Marc: marccm92@gmail.com
-*  JMR : sefal10@gmail.com
 
 # ENLACES DEL CURSO
 *	**Repositorio**: https://github.com/pfraces-wip/curso-javascript
