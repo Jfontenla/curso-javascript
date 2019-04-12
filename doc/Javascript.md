@@ -16,6 +16,7 @@
 *	**Foro**: http://cursojavascript.foroactivo.com/
 *	**Chat**:  https://cursojavascriptsede.slack.com
 *	**Drive** : https://drive.google.com/drive/folders/1T3kmj2KNmG0FHyDhbSieRyT7zWF8uBzb?usp=sharing_eip&ts=5bb7910c
+*   **Live Share**: Extensión Live Share del Visual Studio Code
 
 * **Quitar los proxis en la carpeta de usuario :**
 > npm config set proxy  http://10.110.8.42:8080
