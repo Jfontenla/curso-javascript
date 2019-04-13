@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "mocha --colors test/**/*.spec.js",
-    "http-server": "http-server src/globalscope/browser"
+    "http-server": "http-server src/globalscope/browser",
+    "start": "node src/exception/main.js"
   },
   "keywords": [],
   "author": "",
