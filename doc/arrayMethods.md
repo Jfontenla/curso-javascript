@@ -37,6 +37,8 @@ forEach + push -> **CodeSmell** ->return map(transform)
         return person.name;
     }
     ```
+* 3Aº iteracion:
+
 * 3Bº iteracion:
       ```javascript
     function getNamesForMap(arr){
